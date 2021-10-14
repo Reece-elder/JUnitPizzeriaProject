@@ -34,5 +34,10 @@ public class PizzaManager {
 		System.out.println("New pizza added");
 		return newPizza;
 	}
+	
+	public void getAllPizzas() {
+		System.out.println(pizzaList);
+		return pizzaList;
+	}
 
 }
